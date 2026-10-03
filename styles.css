@@ -37,25 +37,51 @@ h2 {
     
 }
 
-hr {
+/*hr {
     border: none;
     border-top: 1px solid #ccc;
     margin: 20px 0;
-}
+}*/
 
 .innhold-konteiner, header, footer {
-    max-width: 800px;
+    max-width: 1500px;
     margin: 0 auto;
     padding: 10px;
     background-color: white;
     padding: 2cqi;
 }
 
-.innhold-seksjon{
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.innhold-seksjon {
+    flex: 1 1 300px;
+    max-width: 400px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #e24141;
+    
+    text-align: center;
+    line-height: 1.6;
+    
+}
+
+.innhold-introduksjon{
     margin-bottom: 40px;
     text-align: center;
     line-height: 1.6;
 }
+
+
+
 
 #introduksjon img { 
     width: 100%;
