@@ -96,9 +96,6 @@ nav a:hover {
     line-height: 1.6;
 }
 
-
-
-
 #introduksjon img { 
     width: 100%;
     max-width: 250px;
@@ -125,3 +122,34 @@ nav a:hover {
     text-align: left
 }
 
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+    
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.submit-button {
+    margin-top: 20px;
+    background-color: #fd4517;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #e03e14;
+}
