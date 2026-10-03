@@ -1,0 +1,85 @@
+html {
+    background-color: rgb(206, 213, 221);
+    scroll-behavior: smooth;
+}
+
+
+
+header {
+    text-align: center;
+    padding: 10px;
+    font-family: 'Inter', sans-serif;
+}
+
+
+footer {
+    text-align: center;
+    background-color: white;
+    font-family: 'Inter', sans-serif;
+    
+}
+
+footer a {
+    color: #0000EE;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+h2 {
+    color: #333333;
+    font-size: 1.5em;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+    
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+.innhold-konteiner, header, footer {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: white;
+    padding: 2cqi;
+}
+
+.innhold-seksjon{
+    margin-bottom: 40px;
+    text-align: center;
+    line-height: 1.6;
+}
+
+#introduksjon img { 
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    border-radius: 50%;
+    padding-bottom: 20px;
+    
+}
+
+#introduksjon p {
+    font-size: 18px; 
+    font-weight: 500;
+}
+
+#introduksjon {
+    margin-bottom: 80px;
+    
+}
+
+.lister {
+    display: flex;
+    justify-content: center;
+    line-height: 1.6;
+    text-align: left
+}
+
