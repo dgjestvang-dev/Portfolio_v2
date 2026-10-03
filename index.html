@@ -13,10 +13,11 @@
     <h1>Daniel Gjestvang - Hvem er jeg?</h1>
 
     <nav>
-        <a href="#introduksjon">Introduksjon</a> |
+        <!-- <a href="#introduksjon">Introduksjon</a> | -->
         <a href="#bakgrunn">Bakgrunn</a> |
         <a href="#interesser">Interesser</a> |
         <a href="#fun-facts">Fun facts</a>
+        
     </nav>
     
 </header>
@@ -68,6 +69,19 @@
             </div>
         </section>
     </div> <!-- .flex-container -->
+
+<section class="kontakt-skjema" id="kontakt-skjema">
+    <h2>Kontakt meg</h2>
+    <form action="mailto:d.gjestvang@gmail.com" method="post" enctype="text/plain">
+        <label for="name">Navn:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email"></label>E-post:</label>
+        <input type="text" id="email" name="email" required>
+        <label for="message">Melding:</label>
+        <textarea id="message" name="message" required></textarea>
+        <input type="submit" value="Send">
+    </form>
+</section>
 </main>
 
 <footer>
