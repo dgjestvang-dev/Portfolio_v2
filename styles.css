@@ -35,18 +35,13 @@ h2 {
     
 }
 
-/*hr {
-    border: none;
-    border-top: 1px solid #ccc;
-    margin: 20px 0;
-}*/
 
 .innhold-konteiner, header, footer {
     max-width: 1500px;
     margin: 0 auto;
     padding: 10px;
     background-color: white;
-    padding: 2cqi;
+    
 }
 
 nav {
@@ -111,7 +106,8 @@ nav a:hover {
 }
 
 #introduksjon {
-    margin-bottom: 80px;
+    margin-bottom: 40px;
+    padding: 20px;
     
 }
 
@@ -123,11 +119,17 @@ nav a:hover {
 }
 
 
+.kontakt-skjema {
+    margin-top: 40px;
+    
+}
+
 form {
     display: flex;
     flex-direction: column;
     max-width: 400px;
     margin: 0 auto;
+    padding: 10px;
     
 }
 
@@ -142,6 +144,12 @@ form input, form textarea {
     border-radius: 5px;
 }
 
+form input:focus, form textarea:focus {
+    outline: none;
+    border-color: #fd4517;
+    border-width: 2px;
+}
+
 .submit-button {
     margin-top: 20px;
     background-color: #fd4517;
@@ -150,6 +158,12 @@ form input, form textarea {
     cursor: pointer;
 }
 
+.submit-button:focus {
+    border-color: #000000;
+    outline: 2px solid #080808;
+    outline-offset: 2px;
+}
+
 .submit-button:hover {
-    background-color: #e03e14;
+    background-color: #e03e14; 
 }
